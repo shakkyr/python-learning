@@ -1,2 +1,2 @@
 if True:
-    print('i love shadi'); print('and want to learn')
+    print('i love shadi'); print('and I want to learn')
