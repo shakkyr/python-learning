@@ -136,3 +136,19 @@ v = 'asdasda'
 b = 'safa2324'
 print(v.isalpha()) # true
 print(b.isalpha()) # false
+
+
+# replace(old value, new value, count)
+
+a = "Hello One Two Three One One"
+print(a.replace('One', "1"))  # Hello 1 Two Three 1 1
+print(a.replace('One', "1", 2)) # Hello 1 Two Three 1 One
+
+
+# join(Iterable)
+
+myList = ['Shadi', 'Neuman', 'Rada']
+
+print('-'.join(myList)) # Shadi-Neuman-Rada
+print(' '.join(myList))  # Shadi Neuman Rada
+print(', '.join(myList))  # Shadi, Neuman, Rada
